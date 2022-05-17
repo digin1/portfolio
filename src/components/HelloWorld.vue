@@ -1,21 +1,21 @@
 <template>
   <div class="common-layout">
     <el-container>
-      <el-header>
-        <div class="demo-image">
-          <div class="block">
-            <el-image style="width: 200px; height: 200px; border-radius: 50%; border: 5px solid #409EFF;" :src="asset" />
-          </div>
-        </div>
+      <el-header style="height:210px">
+        <el-image style="width: 200px; height: 200px; border-radius: 50%; border: 5px solid #409EFF;" :src="asset" />
       </el-header>
-      <br><br><br><br><br><br><br><br><br>
+      
       <el-main>
         <h1 class="myname">{{ msg }}</h1>
         <p>Full Stack Developer | SysAdmin | Cyber Security Graduate</p>
       </el-main>
     </el-container>
   </div>
-  <el-divider />
+    <el-divider>
+      <el-icon><star-filled /></el-icon>
+      </el-divider>
+
+
 </template>
 
 
@@ -27,9 +27,11 @@ export default {
     msg: String
   },
   data(){
-    return{ asset}
+    return{ 
+      asset }
   }
 }
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -64,25 +66,6 @@ a {
 .grid-content {
   border-radius: 4px;
   min-height: 36px;
-}
-
-.demo-image .block {
-  padding: 30px 0;
-  text-align: center;
-  border-right: solid 1px var(--el-border-color);
-  display: inline-block;
-  width: 20%;
-  box-sizing: border-box;
-  vertical-align: top;
-}
-.demo-image .block:last-child {
-  border-right: none;
-}
-.demo-image .demonstration {
-  display: block;
-  color: var(--el-text-color-secondary);
-  font-size: 14px;
-  margin-bottom: 20px;
 }
 
 </style>
