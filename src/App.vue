@@ -1,17 +1,10 @@
 
 <template>
-  <div class="common-layout">
-    <el-container>
-      <el-header></el-header>
-      <el-main><HelloWorld msg="DIGIN DOMINIC"/></el-main>
-      <el-footer>2022 &copy; Digin Dominic</el-footer>
-    </el-container>
-  </div>
+
+      <HelloWorld msg="DIGIN DOMINIC"/>
+      2022 &copy; Digin Dominic
+
 </template>
-
-  
-  
-
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
