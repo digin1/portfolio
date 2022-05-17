@@ -1,10 +1,10 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      Full Stack Developer | SysAdmin | CyberSecurity Graduate
-    </p>
-    <b-button variant="success">Button</b-button>
+      <h1>{{ msg }}</h1>
+      <p>
+        Full Stack Developer | SysAdmin | CyberSecurity Graduate
+      </p>
+    <img alt="Digin Dominic" src="./../assets/logo.jpeg">
   </div>
 </template>
 
