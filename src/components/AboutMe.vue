@@ -7,36 +7,28 @@
       <div class="col-md-7 mr-auto card-mobile">
         <div class="paragraph">
             <h4 class="text-start "><strong>WHO AM I?</strong></h4>
-            <p class="text-start text-justify">I am a Well-qualified Software Engineer familiar with wide range of
-              programming utilities and languages. Knowledgeable of backend and
-              frontend development requirements. Handles any part of process with
-              ease. Collaborative team player with strong technical skills and over a
-              year of relevant experience.
+            <p class="text-start text-justify">{{ this.user[0].metadata.about}}
               </p>
         </div>
       </div>
       
       <div class="col-md-4 card-mobile">
         <div class="paragraph text-start">
-              <p><b>Email:</b> digin13dominic@gmail.com</p>
-              <p><b>Phone:</b> +447424003671</p>
-              <p><b>City:</b> Nottingham</p>
-              <p><b>Languages:</b> English, Malayalam</p>
+              <p><b>Email:</b> {{this.user[0].metadata.email}}</p>
+              <p><b>Phone:</b> {{this.user[0].metadata.phone}}</p>
+              <p><b>City:</b> {{this.user[0].metadata.city}}</p>
+              <p><b>Languages:</b> {{this.user[0].metadata.languages}}</p>
         </div>
       </div>
     </div>
   </div>
-
-
-
-
 </template>
-
 
 <script>
 
 export default {
   name: 'AboutMe',
+  props: ["user"],
 }
 </script>
 
