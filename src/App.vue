@@ -1,6 +1,9 @@
 <template>
 <div id="App">
-  <div class="container">
+  <div v-if="loading">
+      <div class="spinner-border m-5" role="status">
+  </div></div>
+  <div class="container" v-else>
         <HeaderPage :user="user" />
         <div class="border-top my-3"></div>
         <AboutMe :user="user"/>
@@ -53,7 +56,7 @@ export default {
 
 <style>
 
-@import url("http://fonts.googleapis.com/css?family=Merriweather:400,300,700");
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,300,700");
 
 #app {
   font-family: 'Merriweather', sans-serif;

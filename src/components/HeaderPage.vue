@@ -1,8 +1,8 @@
 <template>
   <div class="common-layout">
         <img style="width: 200px; height: 200px; border-radius: 50%; border: 5px solid #409EFF;" :src="asset" />
-        <h2 class="myname"><strong><h1>{{ this.user[0].metadata.name}}</h1></strong></h2>
-        <p>{{this.user[0].metadata.status}}</p>
+        <h2 class="myname"><strong><h1>{{ user[0].metadata.name}}</h1></strong></h2>
+        <p>{{user[0].metadata.status}}</p>
   </div>
 </template>
 

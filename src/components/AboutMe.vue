@@ -7,17 +7,17 @@
       <div class="col-md-7 mr-auto card-mobile">
         <div class="paragraph">
             <h4 class="text-start "><strong>WHO AM I?</strong></h4>
-            <p class="text-start text-justify">{{ this.user[0].metadata.about}}
+            <p class="text-start text-justify">{{ user[0].metadata.about}}
               </p>
         </div>
       </div>
       
       <div class="col-md-4 card-mobile">
         <div class="paragraph text-start">
-              <p><b>Email:</b> {{this.user[0].metadata.email}}</p>
-              <p><b>Phone:</b> {{this.user[0].metadata.phone}}</p>
-              <p><b>City:</b> {{this.user[0].metadata.city}}</p>
-              <p><b>Languages:</b> {{this.user[0].metadata.languages}}</p>
+              <p><b>Email:</b> {{user[0].metadata.email}}</p>
+              <p><b>Phone:</b> {{user[0].metadata.phone}}</p>
+              <p><b>City:</b> {{user[0].metadata.city}}</p>
+              <p><b>Languages:</b> {{user[0].metadata.languages}}</p>
         </div>
       </div>
     </div>
