@@ -1,12 +1,13 @@
 <template>
 
-
   <div class="container-fluid">
+    <h2>About Me</h2>
+        <div class="border-top my-3"></div>
     <div class="row justify-content-center">
       <div class="col-md-7 mr-auto card-mobile">
         <div class="paragraph">
-            <h3 class="text-start">WHO AM I?</h3>
-            <p class="text-start">I am a Well-qualified Software Engineer familiar with wide range of
+            <h4 class="text-start "><strong>WHO AM I?</strong></h4>
+            <p class="text-start text-justify">I am a Well-qualified Software Engineer familiar with wide range of
               programming utilities and languages. Knowledgeable of backend and
               frontend development requirements. Handles any part of process with
               ease. Collaborative team player with strong technical skills and over a
@@ -27,6 +28,8 @@
   </div>
 
 
+
+
 </template>
 
 
@@ -40,7 +43,5 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
-p{
-  box-sizing: border-box;
-}
+
 </style>

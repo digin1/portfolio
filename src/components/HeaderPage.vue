@@ -3,7 +3,7 @@
 
         <img style="width: 200px; height: 200px; border-radius: 50%; border: 5px solid #409EFF;" :src="asset" />
 
-        <h2 class="myname">{{ msg }}</h2>
+        <h2 class="myname"><strong><h1>{{ msg }}</h1></strong></h2>
         <p>Full Stack Developer | SysAdmin | Cyber Security Graduate</p>
 
   </div>
@@ -13,7 +13,7 @@
 <script>
 const asset = require('./../assets/logo.jpeg')
 export default {
-  name: 'HelloWorld',
+  name: 'HeaderPage',
   props: {
     msg: String
   },
@@ -25,11 +25,19 @@ export default {
 
 </script>
 
+
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+@import url("http://fonts.googleapis.com/css?family=Merriweather:400,300,700");
 
 h2{
   margin-top: 10px;
+    font-family: 'Merriweather', sans-serif !important;
+
+}
+p{
+    font-family: 'Merriweather', sans-serif !important;
+
 }
 
 h3 {
