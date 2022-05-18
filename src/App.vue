@@ -1,9 +1,13 @@
 
 <template>
-
+<div class="container">
       <HelloWorld msg="DIGIN DOMINIC"/>
+      <div class="border-top my-3"></div>
       <AboutMe/>
-      Powered by Vue.js | Element Plus | 2022 &copy; Digin Dominic <a href="https://linkedin.com/in/digin">LinkedIn</a>
+      <div class="border-top my-3"></div>
+      Powered by Vue.js | 2022 &copy; Digin Dominic <a href="https://linkedin.com/in/digin">LinkedIn</a>
+</div>
+
 
 </template>
 

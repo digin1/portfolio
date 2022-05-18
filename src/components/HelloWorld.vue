@@ -1,21 +1,12 @@
 <template>
   <div class="common-layout">
-    <el-container>
-      <el-header style="height:210px">
-        <el-image style="width: 200px; height: 200px; border-radius: 50%; border: 5px solid #409EFF;" :src="asset" />
-      </el-header>
-      
-      <el-main>
-        <h1 class="myname">{{ msg }}</h1>
+
+        <img style="width: 200px; height: 200px; border-radius: 50%; border: 5px solid #409EFF;" :src="asset" />
+
+        <h2 class="myname">{{ msg }}</h2>
         <p>Full Stack Developer | SysAdmin | Cyber Security Graduate</p>
-      </el-main>
-    </el-container>
+
   </div>
-    <el-divider>
-      <el-icon><star-filled /></el-icon>
-      </el-divider>
-
-
 </template>
 
 
@@ -37,6 +28,9 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
+h2{
+  margin-top: 10px;
+}
 
 h3 {
   margin: 40px 0 0;
@@ -51,16 +45,6 @@ li {
 }
 a {
   color: #282828;
-}
-
-.el-row {
-  margin-bottom: 20px;
-}
-.el-row:last-child {
-  margin-bottom: 0;
-}
-.el-col {
-  border-radius: 4px;
 }
 
 .grid-content {
