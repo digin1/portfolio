@@ -1,6 +1,6 @@
 <template>
   <div class="common-layout">
-        <img style="width: 200px; height: 200px; border-radius: 50%; border: 5px solid #409EFF;" :src="asset" />
+        <img :src="user[0].metadata.photo.imgix_url" />
         <h2 class="myname"><strong><h1>{{ user[0].metadata.name}}</h1></strong></h2>
         <p>{{user[0].metadata.status}}</p>
   </div>
@@ -8,13 +8,13 @@
 
 
 <script>
-const asset = require('./../assets/logo.jpeg')
+//const asset = require('./../assets/logo.jpeg')
 export default {
   name: 'HeaderPage',
   props: ["user"],
   data(){
     return{ 
-      asset
+      //asset
     }
   }
 }
@@ -27,5 +27,9 @@ export default {
 
 h2{
   margin-top: 20px;
+}
+img{
+  border-radius: 50%; 
+  border: 5px solid #409EFF;
 }
 </style>
