@@ -10,10 +10,11 @@
                     <div class="card-header">
                         <b>EDUCATION</b>
                     </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">An item</li>
-                        <li class="list-group-item">A second item</li>
-                        <li class="list-group-item">A third item</li>
+                    <ul class="list-group list-group-flush"> 
+                        <li v-for="item in user[0].metadata.experience.education" :key="item.id" class="list-group-item">
+                             <p>{{item.degree}}</p>
+                             <footer class="blockquote-footer">{{item.place}}, {{item.year}}</footer>
+                        </li>               
                     </ul>
                 </div>
             </div>
@@ -23,9 +24,10 @@
                         <b>PROFESSIONAL</b>
                     </div>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item">An item</li>
-                        <li class="list-group-item">A second item</li>
-                        <li class="list-group-item">A third item</li>
+                        <li v-for="item in user[0].metadata.experience.professional" :key="item.id" class="list-group-item">
+                             <p>{{item.job}}</p>
+                             <footer class="blockquote-footer">{{item.company}}, {{item.year}}</footer>
+                        </li>   
                     </ul>
                 </div>
             </div>
@@ -36,9 +38,12 @@
 </template>
 
 <script>
+
 export default {
     name: 'EducationExperience',
+    props: ["user"],
 }
+
 </script>
 
 <style scoped>

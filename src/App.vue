@@ -8,7 +8,7 @@
         <div class="border-top my-3"></div>
         <AboutMe :user="user"/>
         <div class="border-top my-3"></div>
-        <EducationExperience/>
+        <EducationExperience :user="user"/>
         <div class="border-top my-3"></div>
         Portfolio created with <a href="https://github.com/digin1/portfolio"><b-icon-github></b-icon-github>Vue.js</a> | 2022 &copy; <a href="https://linkedin.com/in/digin">Digin Dominic</a>
   </div>
