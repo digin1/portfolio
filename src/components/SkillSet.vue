@@ -1,12 +1,27 @@
 <template>
-  <div class="common-layout bg-white p-2 rounded-3 shadow-sm m-1 mt-2">
-  TATA
+  <div class="common-layout bg-white p-3 rounded-3 shadow-sm m-1 mt-2">
+    <h5><b>Skills</b></h5>
+    <div class="border-top my-3"></div>
+    <div class="container-fluid">
+        <div class="container">
+                <div class="row">
+                        <div class="col p-4" v-for="(value, key) in user[0].metadata.skills" :key="value.id"> 
+                            <img :src="'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/'+key+'/'+key+'-original.svg'" />
+                            <p>{{value}}</p>
+                        </div>
+                </div>
+        </div>
+    </div>
   </div>
 </template>
 
 
 <script>
 
+export default {
+  name: 'SkillSet',
+  props: ["user"],
+}
 
 </script>
 
@@ -14,5 +29,12 @@
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
+i{
+    font-size: 100px;
+}
+img{
+    width:80px;
+    height:auto;
+}
 
 </style>

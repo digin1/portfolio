@@ -2,6 +2,7 @@ import { createApp } from 'vue'
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap"
 import { BootstrapIconsPlugin } from 'bootstrap-icons-vue';
+import "devicon"
 
 
 import App from './App.vue'
