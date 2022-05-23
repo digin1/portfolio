@@ -7,6 +7,7 @@
         <HeaderPage :user="user"/>
         <AboutMe :user="user"/>
         <EducationExperience :user="user"/>
+        <SkillSet :user="user"/>
         <div class="border-top my-3"></div>
         Portfolio created with <a href="https://github.com/digin1/portfolio"><b-icon-github></b-icon-github>Vue.js</a> | 2022 &copy; <a href="https://linkedin.com/in/digin">Digin Dominic</a>
   </div>
@@ -20,6 +21,7 @@ import AboutMe from './components/AboutMe.vue'
 import EducationExperience from './components/EducationExperience.vue';
 
 import { bucket } from "./cosmic.js";
+import SkillSet from "./components/SkillSet.vue";
 
 
 export default {
@@ -28,6 +30,7 @@ export default {
     AboutMe,
     HeaderPage,
     EducationExperience,
+    SkillSet
 },
   data: () => ({
       loading: false,
