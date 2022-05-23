@@ -61,10 +61,10 @@ export default {
 
 <style>
 
-@import url("https://fonts.googleapis.com/css?family=Merriweather:400,300,700");
 
 #app {
-  font-family: 'Merriweather', sans-serif;
+
+  font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen,Ubuntu,Cantarell,open sans,helvetica neue,sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

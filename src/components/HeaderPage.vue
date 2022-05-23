@@ -26,10 +26,10 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
-.common-layout{
-  background-image: url("../assets/headerbackground.jpeg");
+/* .common-layout{
+  background-image: url("../assets/12.jpg");
   background-size: cover;
-}
+} */
 h2{
   margin-top: 20px;
 }
