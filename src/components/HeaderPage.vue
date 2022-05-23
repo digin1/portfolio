@@ -1,6 +1,6 @@
 <template>
-  <div class="common-layout">
-        <img :src="user[0].metadata.photo.imgix_url" />
+  <div class="common-layout bg-white p-2 rounded-3 shadow-sm m-1">
+        <img :src="user[0].metadata.photo.imgix_url" class="mt-4 shadow-sm border border-secondary border-2" />
         <h2 class="myname"><strong><h1>{{ user[0].metadata.name}}</h1></strong></h2>
         <p>{{user[0].metadata.status}}</p>
   </div>
@@ -31,6 +31,5 @@ h2{
 }
 img{
   border-radius: 50%; 
-  border: 5px solid #409EFF;
 }
 </style>

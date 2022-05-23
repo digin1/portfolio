@@ -1,12 +1,12 @@
 <template>
 
-  <div class="container-fluid">
+  <div class="common-layout bg-white p-3 rounded-3 shadow-sm m-1 mt-2">
     <h2>About Me</h2>
         <div class="border-top my-3"></div>
     <div class="row justify-content-center">
-      <div class="col-md-7 mr-auto card-mobile">
+      <div class="col-md-6 mr-auto card-mobile">
         <div class="paragraph">
-            <h4 class="text-start "><strong>WHO AM I?</strong></h4>
+            <h4 class="text-start "><strong>Who Am I?</strong></h4>
             <p class="text-start text-justify">{{ user[0].metadata.about}}
               </p>
         </div>
