@@ -4,12 +4,18 @@
     <div class="border-top my-3"></div>
     <div class="container-fluid">
         <div class="container">
-                <div class="row">
-                        <div class="col p-4" v-for="(value, key) in user[0].metadata.skills" :key="value.id"> 
-                            <img :src="'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/'+key+'/'+key+'-original.svg'" />
-                            <p>{{value}}</p>
-                        </div>
+            <div class="row justify-content-center">
+                <div class="col-sm-9">
+                    <div class="row">
+                            <div class="col" v-for="(value, key) in user[0].metadata.skills" :key="value.id"> 
+                                <img :src="'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/'+key+'/'+key+'-original.svg'" />
+                                <p>{{value}}</p>
+                            </div>
+                    </div>
                 </div>
+            </div>
+
+
         </div>
     </div>
   </div>
@@ -33,7 +39,7 @@ i{
     font-size: 100px;
 }
 img{
-    width:80px;
+    width:60px;
     height:auto;
 }
 
