@@ -6,12 +6,12 @@
     <div class="border-top my-3"></div>
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-sm-12">
+        <div class="col">
                     <div id="content">
                         <ul class="timeline" >
                             <li class="event" v-for="item in user[0].metadata.projects" :key="item.id" :data-date="item.date">
-                                <div class="card shadow-sm">
-                                    <div class="card-header bg-gradient bg-info text-light">
+                                <div class="card">
+                                    <div class="card-header bg-success text-light">
                                         <b>{{item.name}}</b>
                                     </div>
 
@@ -52,22 +52,25 @@ body{margin-top:20px;}
     border-bottom-right-radius: 4px;
     border-top-right-radius: 4px;
     /* background: rgba(114, 124, 245, 0.09); */
-    background: #f8f9fa; 
+    /* background: #f8f9fa;  */
     margin: 0 auto;
     letter-spacing: 0.2px;
     position: relative;
     line-height: 1.4em;
     font-size: 1.03em;
-    padding: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom:50px;
     list-style: none;
     text-align: left;
-    max-width: 75%;
+    max-width: 100%;
 }
 
 @media (max-width: 767px) {
     .timeline {
-        max-width: 98%;
-        padding: 25px;
+        max-width: 100%;
+        padding-left: 25px;
+        padding-bottom:25px;
     }
 }
 
