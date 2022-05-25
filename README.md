@@ -1,4 +1,6 @@
-# portfolio
+# Portfolio created with VueJS 3.0
+
+The portfolio is live @ https://digindominic.me
 
 ## Project setup
 ```
