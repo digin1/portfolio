@@ -10,7 +10,7 @@
         <SkillSet :user="user"/>
         <MyProjects :user="user"/>
         <div class="border-top my-3"></div>
-        Portfolio created with <a href="https://github.com/digin1/portfolio"><b-icon-github></b-icon-github>Vue.js</a> | 2022 &copy; <a href="https://linkedin.com/in/digin">Digin Dominic</a>
+        <p><a href="https://github.com/digin1/portfolio"><b-icon-github style="margin-top:-2px"></b-icon-github> Get this Portfolio Template</a></p>2022 &copy; <a href="https://linkedin.com/in/digin">Digin Dominic</a>
   </div>
 </div>
 </template>
@@ -81,7 +81,12 @@ export default {
 }
 a{
   text-decoration: none;
-  color: #409EFF;
+  color: black;
+}
+a:hover{
+  color:#2c3e50;
+  padding-bottom:3px;
+  border-bottom:1px solid black;
 }
 
 </style>
