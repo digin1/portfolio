@@ -8,6 +8,7 @@
         <AboutMe :user="user"/>
         <EducationExperience :user="user"/>
         <SkillSet :user="user"/>
+        <MscGraduation/>
         <MyProjects :user="user"/>
         <div class="border-top my-3"></div>
         <p><a href="https://github.com/digin1/portfolio"><b-icon-github style="margin-top:-2px"></b-icon-github> Get this Portfolio Template</a></p>2022 &copy; <a href="https://linkedin.com/in/digin">Digin Dominic</a>
@@ -24,6 +25,7 @@ import EducationExperience from './components/EducationExperience.vue';
 import { bucket } from "./cosmic.js";
 import SkillSet from "./components/SkillSet.vue";
 import MyProjects from './components/MyProjects.vue';
+import MscGraduation from './components/MscGraduation.vue';
 
 
 export default {
@@ -33,7 +35,8 @@ export default {
     HeaderPage,
     EducationExperience,
     SkillSet,
-    MyProjects
+    MyProjects,
+    MscGraduation
 },
   data: () => ({
       loading: false,
