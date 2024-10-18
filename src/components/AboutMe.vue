@@ -1,5 +1,5 @@
 <template>
-  <div class="common-layout bg-white p-3 rounded shadow m-2">
+  <div class="common-layout bg-white p-3 rounded shadow m-2 mt-3">
     <div class="row">
       <div class="col-lg-8">
         <h2 class="mb-4">About Me</h2>
@@ -12,8 +12,6 @@
               processing</strong>, with a particular focus on <strong>scientific research applications</strong>. One of
             my key contributions is developing tools that support <strong>human brain synaptome mapping</strong>,
             enabling seamless <strong>data manipulation</strong> and sophisticated <strong>3D visualizations</strong>.
-            My work has been included in <strong>scientific papers</strong>, with more publications forthcoming in
-            <strong>scientific journals</strong>.
           </p>
 
           <p class="text-justify">
@@ -28,7 +26,7 @@
           </p>
 
           <p class="text-justify">
-            I played a key role in enhancing and operating a<strong>web application that generates heatmaps based on the
+            I played a key role in enhancing and operating a <strong>web application that generates heatmaps based on the
               Allen Brain Atlas</strong>. I enhanced its performance and
             migrated it to run efficiently as a web application.
           </p>
