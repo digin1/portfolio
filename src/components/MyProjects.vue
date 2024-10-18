@@ -1,7 +1,7 @@
 
 
 <template>
-  <div class="common-layout bg-white p-3 rounded-3 shadow-sm m-1 mt-2">
+  <div class="common-layout bg-white p-3 rounded shadow m-2">
     <h5><b>My Projects</b></h5>
     <div class="border-top my-3"></div>
 <div class="container">

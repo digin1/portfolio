@@ -1,5 +1,5 @@
 <template>
-  <div class="common-layout bg-white p-4 rounded-3 shadow-sm m-1 mt-2">
+  <div class="common-layout bg-white p-3 rounded shadow m-2">
     <div class="row">
       <div class="col-lg-8">
         <h2 class="mb-4">About Me</h2>
