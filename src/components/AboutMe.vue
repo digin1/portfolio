@@ -7,7 +7,15 @@
       <div class="col-md-6 mr-auto card-mobile">
         <div class="paragraph">
             <h4 class="text-start "><strong>Who Am I?</strong></h4>
-            <p class="text-start text-justify">{{ user[0].metadata.about}}
+            <p class="text-start text-justify">I am a software developer with a passion for creating innovative tools and solutions that enhance efficiency and drive meaningful results. I currently work on a variety of projects ranging from data visualization to automation and image processing, with a particular focus on scientific research applications. One of my key contributions is developing tools that support human brain synaptome mapping, enabling seamless data manipulation and sophisticated 3D visualizations.
+
+I specialize in building end-to-end solutions using technologies such as Docker, Python, Flask, Django, and cloud platforms like AWS. My expertise extends to 3D graphics using Three.js, where I develop advanced visualization tools for complex datasets, as well as image segmentation applications that leverage intuitive interfaces and powerful backend processing.
+
+In addition to software development, I also work on system configuration, including NAS and RAID setups, to optimize storage and performance. I have a strong foundation in Linux administration, scripting, and hardware configurations, which allows me to manage high-performance server environments, including GPU-enabled setups for computationally intensive tasks.
+
+Earlier in my career, I worked extensively in system administration, where I gained solid experience with virtualization technologies such as Xen, KVM, and OpenVZ/Virtuozzo. I manage various Linux distributions and Windows Server environments, and I am proficient with tools like Plesk, DirectAdmin, aaPanel, and Webmin. My background in shell scripting and troubleshooting complex Linux issues further strengthens my ability to ensure system stability.
+
+I also have hands-on experience with configuration management tools like Ansible and monitoring solutions such as Nagios, Grafana, and Prometheus, from my previous roles where I maintained system uptime and monitored performance.
               </p>
         </div>
       </div>
